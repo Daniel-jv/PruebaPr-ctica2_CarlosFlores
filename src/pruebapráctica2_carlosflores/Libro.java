@@ -35,8 +35,9 @@ public class Libro {
         }
     }
     
+    
     public String toString(){
-        return "Nombre: " + Nombre + "Autor: " + Autor + ", ID: " + ID + "Estado: " + estado + "Dueño: "+ dueño;
+        return "--Nombre: " + Nombre + "--Autor: " + Autor + "--ID: " + ID + "--Estado: " + estado + "--Dueño: "+ dueño;
     }
 
     public String getNombre() {
