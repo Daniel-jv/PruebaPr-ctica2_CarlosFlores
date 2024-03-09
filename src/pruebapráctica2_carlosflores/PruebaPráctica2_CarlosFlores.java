@@ -16,6 +16,7 @@ public class PruebaPráctica2_CarlosFlores {
         listarlibros(libreria);
         boolean var = true;
         int op = 0;
+        System.out.println("");
         do{
             System.out.print("---MENU---\n1) Agregar Nuevo libro a la biblioteca\n2) Solicitar libro\n3) Regresar libro\n4) Buscar libro por nombre\n5) Listar libros disponibles\n6) Listar libros prestados\n7) Salir\nIngrese una opcion:");
             op = leer.nextInt();
@@ -28,7 +29,7 @@ public class PruebaPráctica2_CarlosFlores {
                 }//fin case 1
                 
                 case 2:{
-                    System.out.print("Ingrese su nombre");
+                    System.out.print("Ingrese su nombre: ");
                     String name = leer.next();
                     System.out.print("Ingrese la posicion del libro: ");
                     int pos = leer.nextInt();
@@ -101,7 +102,7 @@ public class PruebaPráctica2_CarlosFlores {
                 }//fin default
                 
             }//fin switch
-            System.out.println("\n");
+            System.out.println("");
         }while (var);//fin do while
         
     }//fin main
